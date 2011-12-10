@@ -295,10 +295,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"~/Documents/boost_1_48_0/",
-					"~/Documents/Projects/Meta/Meta/",
-				);
+				HEADER_SEARCH_PATHS = $SRCROOT/Meta;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -321,10 +318,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"~/Documents/boost_1_48_0/",
-					"~/Documents/Projects/Meta/Meta/",
-				);
+				HEADER_SEARCH_PATHS = $SRCROOT/Meta;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
