@@ -1,25 +1,16 @@
 #include <iostream>
 #include <tuple>
 
-#include <meta/access.h>
-#include <meta/inspection.h>
+#include <meta/transformation.h>
 
 int main ()
 {
-    typedef std::tuple<int, double, bool, char, float, int, bool, bool> tuple0;
+    typedef std::tuple<int, std::string, double, bool> tuple0;
+    typedef meta::sub<tuple0, 1, 2>::type tuple1;
+    tuple1 tuple("какой-то текст", 1.5);
     
-    typedef meta::iter::begin<tuple0>::type begin;
-    typedef meta::iter::end<tuple0>::type end;
+    std::cout << std::get<0>(tuple) << std::endl;
+    std::cout << std::get<1>(tuple) << std::endl;
     
-    std::cout << meta::iter::count<begin, end, long>::value << std::endl;
-    std::cout << meta::iter::count<begin, end, bool>::value << std::endl;
-    
-    typedef meta::iter::next<begin>::type next;
-    typedef meta::iter::advance<begin, 7>::type advanced;
-    
-    std::cout << meta::iter::count<next, advanced, int>::value << std::endl;
-        
     return 0;
 }
-
-// Распаковка кортежей: http://liveworkspace.org/code/c5f90916a12eccba9bceb5d4d2107483

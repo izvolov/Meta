@@ -11,6 +11,5 @@
 #include <meta/access/at.h>
 #include <meta/access/get_types.h>
 #include <meta/access/get_pattern.h>
-#include <meta/access/iteration.h>
 
 #endif // META_ACCESS_H

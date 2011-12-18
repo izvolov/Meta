@@ -8,20 +8,26 @@
 #ifndef META_CREATION_INSTANTIATE_H
 #define META_CREATION_INSTANTIATE_H
 
-#include <meta/types/type_list.h>
+#include <meta/creation/type_list.h>
 
 namespace meta
 {
+    //!     Конкретизация шаблонного класса.
+    /*!
+            Результатом этой метафункции является шаблон "Class", конкретизированный типами
+        "Types".
+     */
+    template <template <typename ...> class Class, typename ... Types>
+    struct instantiate
+    {
+        typedef Class<Types ...> type;
+    };
     
     //!     Конкретизация шаблонного класса при помощи списка типов.
     /*!
-            Результатом этой метафукнции является шаблон класса "Class", конкретизированный типами
-        из списка типов "TypeList".
-            Время компиляции — константно, то есть O(1).
+            Результатом этой метафукнции является шаблон "Class", конкретизированный типами из
+        списка типов ("type_list<...>").
      */
-    template <template <typename ...> class Class, typename TypeList>
-    struct instantiate;
-    
     template <template <typename ...> class Class, typename ... Types>
     struct instantiate <Class, type_list<Types ...>>
     {

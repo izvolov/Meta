@@ -8,7 +8,7 @@
 #ifndef META_ACCESS_GET_TYPES_H
 #define META_ACCESS_GET_TYPES_H
 
-#include <meta/types/type_list.h>
+#include <meta/utilities/type_list.h>
 
 namespace meta
 {

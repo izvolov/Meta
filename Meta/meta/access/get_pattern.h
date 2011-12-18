@@ -1,5 +1,5 @@
 //
-//  meta/access/get_pattern.h
+//  get_pattern.h
 //
 //  Дмитрий Изволов.
 //  7 декабря 2011 года.
