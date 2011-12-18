@@ -9,7 +9,7 @@
 #define META_ACCESS_AT_H
 
 #include <meta/access/implementation/at.h>
-#include <meta/utilities/type_list.h>
+#include <meta/types/type_list.h>
 #include <meta/access/get_types.h>
 
 namespace meta
