@@ -1,0 +1,56 @@
+TMeta
+v4
+r1
+cCheck dependencies
+cCompileC DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Objects-normal/x86_64/main.o /Users/izvolov/Documents/Projects/Meta/Meta/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004EC7CF7D00000000000000EE
+t1321717629
+s238
+
+N/Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Objects-normal/x86_64/Meta.LinkFileList
+c000000004EE3C7CB0000000000000085
+t1323550667
+s133
+
+N/Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Products/Debug/Meta
+t2
+s0
+
+N/Users/izvolov/Documents/Projects/Meta/Meta/main.cpp
+c000000004EE3C7CB0000000000000418
+t1323550667
+s1048
+
+CBuild AST from /Users/izvolov/Documents/Projects/Meta/Meta/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies88b9904bff93b441^118caf4bff93b441^---0#1#0#--18"Check dependencies36"4221E039-BC01-489F-97D1-BD33CC3DEFFA-
+
+CCompileC DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Objects-normal/x86_64/main.o /Users/izvolov/Documents/Projects/Meta/Meta/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s345243467.684494
+e345243468.458296
+r0
+xCompileC
+xDerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Objects-normal/x86_64/main.o
+x/Users/izvolov/Documents/Projects/Meta/Meta/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/izvolov/Documents/Projects/Meta/Meta/main.cpp:2:10: fatal error: 'tuple' file not found [2]
+o #include <tuple>
+o          ^
+o1 error generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/izvolov/Documents/Projects/Meta/Meta/main.cppd0b5af4bff93b441^8d0d754cff93b441^-148"/Users/izvolov/Documents/Projects/Meta/Meta/main.cpp:2:10: fatal error: 'tuple' file not found [2] #include <tuple>          ^1 error generated.1(21%IDEActivityLogMessage2@22"'tuple' file not found-345243468#0#99#-2#-23%DVTTextDocumentLocation3@68"file://localhost/Users/izvolov/Documents/Projects/Meta/Meta/main.cpp0000000000000000^1#9#1#9#18446744073709551615#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@68"file://localhost/Users/izvolov/Documents/Projects/Meta/Meta/main.cpp0000000000000000^2072"CompileC DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Objects-normal/x86_64/main.o Meta/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/izvolov/Documents/Projects/Meta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Meta-generated-files.hmap -I/Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Meta-own-target-headers.hmap -I/Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Meta-all-target-headers.hmap -iquote /Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Meta-project-headers.hmap -I/Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Products/Debug/include -I/Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/DerivedSources/x86_64 -I/Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/DerivedSources -F/Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Products/Debug -MMD -MT dependencies -MF /Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Objects-normal/x86_64/main.d -c /Users/izvolov/Documents/Projects/Meta/Meta/main.cpp -o /Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Intermediates/Meta.build/Debug/Meta.build/Objects-normal/x86_64/main.o36"B4D3896B-E0C6-49D0-8471-D3157E8420EE-
+
+CLd /Users/izvolov/Documents/Projects/Meta/DerivedData/Meta/Build/Products/Debug/Meta normal x86_64
+r0
+
