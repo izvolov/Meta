@@ -14,5 +14,7 @@
 #include <meta/types/map.h>
 #include <meta/types/map_value.h>
 #include <meta/types/at_key.h>
+#include <meta/types/create_map.h>
+#include <meta/types/insert_value.h>
 
 #endif // META_TYPES_H

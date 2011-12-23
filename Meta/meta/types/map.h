@@ -8,17 +8,15 @@
 #ifndef META_TYPES_MAP_H
 #define META_TYPES_MAP_H
 
-#include <meta/types/create_map.h>
-
 namespace meta
 {    
     //!     Дерево.
     /*!
      */
-    template <typename ... Values>
+    template <typename Root>
     struct map
     {
-        typedef typename create_map<Values ...>::type root;
+        typedef Root root;
     };
 } // namespace meta
 

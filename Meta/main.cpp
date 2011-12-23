@@ -1,22 +1,19 @@
 #include <iostream>
 #include <tuple>
 
-#include <meta/access.h>
-#include <meta/inspection.h>
 #include <meta/modification.h>
 #include <meta/types.h>
 
-template <typename ... T>
-struct test
-//{}
-;
-
 int main ()
 {
+    // ---- Произвольные подмножества -------------------------------------------------------------
+    
     typedef std::tuple<int, double, bool, char, float, int, bool, bool> tuple0;
     typedef meta::subset<tuple0, 5, 3, 1, 0, 2, 4, 6>::type sub;
     
-    typedef meta::map
+    // ---- Двоичное дерево -----------------------------------------------------------------------
+    
+    typedef meta::create_map
     <
         meta::map_value<5, int>,
         meta::map_value<4, double>,
@@ -24,9 +21,12 @@ int main ()
         meta::map_value<3, bool>,
         meta::map_value<2, long>
     >
-    map;
+    ::type map;
     
-    typedef meta::at_key<map, 2>::type a;
+    typedef meta::insert_value<map, meta::map_value<-100500, std::string>>::type new_map;
+    
+    typedef meta::at_key<new_map, -100500>::type type;
+    type string = "Это строка.";
             
     return 0;
 }
