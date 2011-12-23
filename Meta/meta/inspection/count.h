@@ -17,7 +17,7 @@ namespace meta
 {
     namespace iter
     {
-        //!     Подсчёт вхождений типа в диапазон между итераторами.
+        //!     Подсчёт включений типа в диапазон между итераторами.
         /*!
          */
         template <typename First, typename Second, typename Type>

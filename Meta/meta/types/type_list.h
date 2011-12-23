@@ -5,8 +5,8 @@
 //  4 декабря 2011 года.
 //
 
-#ifndef META_UTILITIES_TYPE_LIST_H
-#define META_UTILITIES_TYPE_LIST_H
+#ifndef META_TYPES_TYPE_LIST_H
+#define META_TYPES_TYPE_LIST_H
 
 namespace meta
 {
@@ -20,4 +20,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_UTILITIES_TYPE_LIST_H
+#endif // META_TYPES_TYPE_LIST_H

@@ -3,23 +3,32 @@
 
 #include <meta/access.h>
 #include <meta/inspection.h>
+#include <meta/modification.h>
+#include <meta/types.h>
+
+template <typename ... T>
+struct test
+//{}
+;
 
 int main ()
 {
     typedef std::tuple<int, double, bool, char, float, int, bool, bool> tuple0;
+    typedef meta::subset<tuple0, 5, 3, 1, 0, 2, 4, 6>::type sub;
     
-    typedef meta::iter::begin<tuple0>::type begin;
-    typedef meta::iter::end<tuple0>::type end;
+    typedef meta::map
+    <
+        meta::map_value<5, int>,
+        meta::map_value<4, double>,
+        meta::map_value<6, int>,
+        meta::map_value<3, bool>,
+        meta::map_value<2, long>
+    >
+    map;
     
-    std::cout << meta::iter::count<begin, end, long>::value << std::endl;
-    std::cout << meta::iter::count<begin, end, bool>::value << std::endl;
-    
-    typedef meta::iter::next<begin>::type next;
-    typedef meta::iter::advance<begin, 7>::type advanced;
-    
-    std::cout << meta::iter::count<next, advanced, int>::value << std::endl;
-        
+    typedef meta::at_key<map, 2>::type a;
+            
     return 0;
 }
 
-// Распаковка кортежей: http://liveworkspace.org/code/c5f90916a12eccba9bceb5d4d2107483
+// Распаковка кортежей: http://liveworkspace.org/code/8843c8742cffbc4bc6e2714a54a4a227

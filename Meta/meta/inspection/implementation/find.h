@@ -8,20 +8,9 @@
 #ifndef META_INSPECTION_IMPLEMENTATION_FIND_H
 #define META_INSPECTION_IMPLEMENTATION_FIND_H
 
+#include <meta/common/select.h>
 #include <meta/access/at.h>
 #include <meta/access/advance.h>
-
-template <bool E, typename T, typename V>
-struct select 
-{
-    typedef T type;
-};
-
-template <typename T, typename V>
-struct select <false, T, V>
-{
-    typedef V type;
-};
 
 namespace meta
 {

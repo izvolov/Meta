@@ -10,7 +10,8 @@
 
 #include <meta/modification/head.h>
 #include <meta/modification/split.h>
-#include <meta/modification/sub.h>
+#include <meta/modification/subsequence.h>
+#include <meta/modification/subset.h>
 #include <meta/modification/tail.h>
 
 #endif // META_MODIFICATION_PARTITION_H

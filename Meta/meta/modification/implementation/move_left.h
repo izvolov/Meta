@@ -19,9 +19,7 @@ namespace meta
         
         template <typename ... Head, typename Moving, typename ... Tail, int N>
         struct move_left <type_list<Head ...>, type_list<Moving, Tail ...>, N>
-        {
-//            static_assert(N - 1 <= sizeof...(Tail), "Невозможно переместить требуемое количество типов из правого списка в левый.");
-            
+        {            
             typedef typename move_left
             <
                 type_list<Head ..., Moving>,
@@ -30,12 +28,6 @@ namespace meta
             >
             ::type type;
         };
-        
-//        template <typename ... Head, int N>
-//        struct move_left <type_list<Head ...>, type_list<>, N>
-//        {
-//            static_assert(N <= 0, "Невозможно переместить требуемое количество типов из правого списка в левый.");
-//        };
         
         template <typename ... Head, typename Middle, typename ... Tail>
         struct move_left <type_list<Head ...>, type_list<Middle, Tail ...>, 0>

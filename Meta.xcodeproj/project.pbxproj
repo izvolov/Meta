@@ -25,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9113110E14A248DF00DE36E6 /* subset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subset.h; sourceTree = "<group>"; };
+		9113110F14A24A1200DE36E6 /* subset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subset.h; sourceTree = "<group>"; };
+		9113111414A3B10400DE36E6 /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
 		911DBC5F149E111900AA168A /* advance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = advance.h; sourceTree = "<group>"; };
 		911DBC60149E118E00AA168A /* advance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = advance.h; sourceTree = "<group>"; };
 		911DBC65149E417400AA168A /* find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = find.h; sourceTree = "<group>"; };
@@ -36,6 +39,17 @@
 		912980731493F8F800D73EC7 /* Meta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Meta; sourceTree = BUILT_PRODUCTS_DIR; };
 		912980771493F8F800D73EC7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = main.cpp; path = Meta/main.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		912980791493F8F800D73EC7 /* Meta.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Meta.1; sourceTree = "<group>"; };
+		9183E317149F9B460006B1DA /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		9183E318149F9B7A0006B1DA /* select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = select.h; sourceTree = "<group>"; };
+		9183E319149F9D500006B1DA /* value_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value_list.h; sourceTree = "<group>"; };
+		91897A5E14A4EA0B001BC76C /* create_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = create_map.h; sourceTree = "<group>"; };
+		91897A5F14A4EB0A001BC76C /* map_node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map_node.h; sourceTree = "<group>"; };
+		91897A6014A4EB7E001BC76C /* map_value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map_value.h; sourceTree = "<group>"; };
+		91897A6114A4ED0F001BC76C /* insert_value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insert_value.h; sourceTree = "<group>"; };
+		91897A6214A4ED94001BC76C /* insert_value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insert_value.h; sourceTree = "<group>"; };
+		91897A6314A4EE59001BC76C /* create_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = create_map.h; sourceTree = "<group>"; };
+		91897A6414A4F039001BC76C /* at_key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = at_key.h; sourceTree = "<group>"; };
+		91897A6514A4F08B001BC76C /* at_key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = at_key.h; sourceTree = "<group>"; };
 		918D9615149CC01B00B01A20 /* at.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = at.h; sourceTree = "<group>"; };
 		918D9616149CC01B00B01A20 /* begin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = begin.h; sourceTree = "<group>"; };
 		918D9617149CC01B00B01A20 /* end.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = end.h; sourceTree = "<group>"; };
@@ -72,11 +86,11 @@
 		918D963C149CC01B00B01A20 /* replace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace.h; sourceTree = "<group>"; };
 		918D963D149CC01B00B01A20 /* reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverse.h; sourceTree = "<group>"; };
 		918D963E149CC01B00B01A20 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
-		918D963F149CC01B00B01A20 /* sub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sub.h; sourceTree = "<group>"; };
+		918D963F149CC01B00B01A20 /* subsequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = subsequence.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		918D9640149CC01B00B01A20 /* tail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tail.h; sourceTree = "<group>"; };
 		918D9641149CC01B00B01A20 /* insert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insert.h; sourceTree = "<group>"; };
 		918D9642149CC01B00B01A20 /* insertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insertion.h; sourceTree = "<group>"; };
-		918D9643149CC01B00B01A20 /* partition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partition.h; sourceTree = "<group>"; };
+		918D9643149CC01B00B01A20 /* partition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = partition.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		918D9644149CC01B00B01A20 /* pop_back.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pop_back.h; sourceTree = "<group>"; };
 		918D9645149CC01B00B01A20 /* pop_front.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pop_front.h; sourceTree = "<group>"; };
 		918D9646149CC01B00B01A20 /* push_back.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = push_back.h; sourceTree = "<group>"; };
@@ -84,7 +98,7 @@
 		918D9648149CC01B00B01A20 /* replace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace.h; sourceTree = "<group>"; };
 		918D9649149CC01B00B01A20 /* reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverse.h; sourceTree = "<group>"; };
 		918D964A149CC01B00B01A20 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
-		918D964B149CC01B00B01A20 /* sub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sub.h; sourceTree = "<group>"; };
+		918D964B149CC01B00B01A20 /* subsequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = subsequence.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		918D964C149CC01B00B01A20 /* substitution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = substitution.h; sourceTree = "<group>"; };
 		918D964D149CC01B00B01A20 /* tail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tail.h; sourceTree = "<group>"; };
 		918D964E149CC01B00B01A20 /* transformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transformation.h; sourceTree = "<group>"; };
@@ -140,11 +154,32 @@
 			path = Meta;
 			sourceTree = "<group>";
 		};
+		9183E315149F9B3E0006B1DA /* common */ = {
+			isa = PBXGroup;
+			children = (
+				9183E318149F9B7A0006B1DA /* select.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		91897A5C14A4E97F001BC76C /* implementation */ = {
+			isa = PBXGroup;
+			children = (
+				91897A5E14A4EA0B001BC76C /* create_map.h */,
+				91897A5F14A4EB0A001BC76C /* map_node.h */,
+				91897A6214A4ED94001BC76C /* insert_value.h */,
+				91897A6514A4F08B001BC76C /* at_key.h */,
+			);
+			path = implementation;
+			sourceTree = "<group>";
+		};
 		918D9613149CC01B00B01A20 /* meta */ = {
 			isa = PBXGroup;
 			children = (
 				918D9614149CC01B00B01A20 /* access */,
 				918D9623149CC01B00B01A20 /* access.h */,
+				9183E315149F9B3E0006B1DA /* common */,
+				9183E317149F9B460006B1DA /* common.h */,
 				918D9624149CC01B00B01A20 /* creation */,
 				918D9628149CC01B00B01A20 /* creation.h */,
 				918D9629149CC01B00B01A20 /* inspection */,
@@ -228,10 +263,11 @@
 				918D9648149CC01B00B01A20 /* replace.h */,
 				918D9649149CC01B00B01A20 /* reverse.h */,
 				918D964A149CC01B00B01A20 /* split.h */,
-				918D964B149CC01B00B01A20 /* sub.h */,
+				918D964B149CC01B00B01A20 /* subsequence.h */,
 				918D964C149CC01B00B01A20 /* substitution.h */,
 				918D964D149CC01B00B01A20 /* tail.h */,
 				918D964E149CC01B00B01A20 /* transformation.h */,
+				9113110E14A248DF00DE36E6 /* subset.h */,
 			);
 			path = modification;
 			sourceTree = "<group>";
@@ -251,8 +287,9 @@
 				918D963C149CC01B00B01A20 /* replace.h */,
 				918D963D149CC01B00B01A20 /* reverse.h */,
 				918D963E149CC01B00B01A20 /* split.h */,
-				918D963F149CC01B00B01A20 /* sub.h */,
+				918D963F149CC01B00B01A20 /* subsequence.h */,
 				918D9640149CC01B00B01A20 /* tail.h */,
+				9113110F14A24A1200DE36E6 /* subset.h */,
 			);
 			path = implementation;
 			sourceTree = "<group>";
@@ -260,8 +297,15 @@
 		918D9650149CC01B00B01A20 /* types */ = {
 			isa = PBXGroup;
 			children = (
+				91897A5C14A4E97F001BC76C /* implementation */,
 				918D9651149CC01B00B01A20 /* pattern_list.h */,
 				918D9652149CC01B00B01A20 /* type_list.h */,
+				9183E319149F9D500006B1DA /* value_list.h */,
+				9113111414A3B10400DE36E6 /* map.h */,
+				91897A6014A4EB7E001BC76C /* map_value.h */,
+				91897A6114A4ED0F001BC76C /* insert_value.h */,
+				91897A6314A4EE59001BC76C /* create_map.h */,
+				91897A6414A4F039001BC76C /* at_key.h */,
 			);
 			path = types;
 			sourceTree = "<group>";
