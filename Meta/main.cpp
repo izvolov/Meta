@@ -26,7 +26,7 @@ int main ()
     typedef meta::insert_value<map, meta::map_value<-100500, std::string>>::type new_map;
     
     typedef meta::at_key<new_map, -100500>::type type;
-    type string = "Это строка.";
+    type string = "Это строка. Да.";
             
     return 0;
 }
