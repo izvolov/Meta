@@ -8,6 +8,8 @@
 #ifndef META_COMMON_H
 #define META_COMMON_H
 
+#include <meta/common/identity.h>
+#include <meta/common/max.h>
 #include <meta/common/select.h>
 
 #endif // META_COMMON_H

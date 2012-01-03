@@ -9,6 +9,7 @@
 #define META_CREATION_H
 
 #include <meta/creation/instaniate.h>
+#include <meta/creation/lazy_instantiate.h>
 #include <meta/creation/reinstantiate.h>
 #include <meta/creation/repattern.h>
 

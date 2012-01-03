@@ -1,34 +1,25 @@
 #include <iostream>
-#include <tuple>
 
-#include <meta/modification.h>
 #include <meta/types.h>
 
 int main ()
-{
-    // ---- Произвольные подмножества -------------------------------------------------------------
-    
-    typedef std::tuple<int, double, bool, char, float, int, bool, bool> tuple0;
-    typedef meta::subset<tuple0, 5, 3, 1, 0, 2, 4, 6>::type sub;
-    
-    // ---- Двоичное дерево -----------------------------------------------------------------------
-    
-    typedef meta::create_map
+{    
+    typedef meta::map::create
     <
-        meta::map_value<5, int>,
-        meta::map_value<4, double>,
-        meta::map_value<6, int>,
-        meta::map_value<3, bool>,
-        meta::map_value<2, long>
+        meta::pair<meta::integer<1>, double>,
+        meta::pair<meta::integer<2>, bool>,
+        meta::pair<meta::integer<3>, short>,
+        meta::pair<meta::integer<4>, long>,
+        meta::pair<meta::integer<5>, float>,
+        meta::pair<meta::integer<6>, unsigned>,
+        meta::pair<meta::integer<7>, std::string>
     >
-    ::type map;
+    ::type map0;
     
-    typedef meta::insert_value<map, meta::map_value<-100500, std::string>>::type new_map;
+    typedef meta::map::at<map0, meta::integer<6>>::type type;
+    type x = -1;
     
-    typedef meta::at_key<new_map, -100500>::type type;
-    type string = "Это строка.";
-            
+    std::cout << x << std::endl;
+    
     return 0;
 }
-
-// Распаковка кортежей: http://liveworkspace.org/code/8843c8742cffbc4bc6e2714a54a4a227

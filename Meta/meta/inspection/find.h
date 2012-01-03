@@ -20,15 +20,15 @@ namespace meta
         //!     Поиск типа в диапазоне между итераторами.
         /*!
          */
-        template <typename First, typename Second, typename Type>
+        template <typename First, typename Last, typename Type>
         struct find
         {
-            static_assert(distance<First, Second>::value >= 0, "Неверно задан диапазон итераторов.");
+            static_assert(distance<First, Last>::value >= 0, "Неверно задан диапазон итераторов.");
             
             typedef typename impl::find
             <
                 typename impl::unwrap<First>::type,
-                typename impl::unwrap<Second>::type,
+                typename impl::unwrap<Last>::type,
                 Type
             >
             ::type found_raw_iterator;
