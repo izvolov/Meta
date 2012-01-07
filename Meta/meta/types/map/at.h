@@ -8,7 +8,7 @@
 #ifndef META_TYPES_MAP_AT_H
 #define META_TYPES_MAP_AT_H
 
-#include <meta/types/multimap/implementation/at.h>
+#include <meta/types/multimap/at.h>
 
 namespace meta
 {
@@ -18,10 +18,7 @@ namespace meta
         /*!
          */
         template <typename Map, typename Key>
-        struct at
-        {
-            typedef typename multimap::impl::at<typename Map::root, Key>::type type;
-        };
+        using at = multimap::at<Map, Key>;
     } // namespace map
 } // namespace meta
 

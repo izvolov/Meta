@@ -73,10 +73,10 @@
 		917128A414B33F9700625C7F /* instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instance.h; sourceTree = "<group>"; };
 		917128A514B3400700625C7F /* insert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insert.h; sourceTree = "<group>"; };
 		917128A714B341C600625C7F /* create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = create.h; sourceTree = "<group>"; };
-		917128A814B341D000625C7F /* insert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insert.h; sourceTree = "<group>"; };
 		9183E317149F9B460006B1DA /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 		9183E318149F9B7A0006B1DA /* select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = select.h; sourceTree = "<group>"; };
 		9183E319149F9D500006B1DA /* value_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value_list.h; sourceTree = "<group>"; };
+		918AA45814B87E770019436D /* insert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insert.h; sourceTree = "<group>"; };
 		918D9615149CC01B00B01A20 /* at.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = at.h; sourceTree = "<group>"; };
 		918D9616149CC01B00B01A20 /* begin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = begin.h; sourceTree = "<group>"; };
 		918D9617149CC01B00B01A20 /* end.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = end.h; sourceTree = "<group>"; };
@@ -234,7 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				917128A714B341C600625C7F /* create.h */,
-				917128A814B341D000625C7F /* insert.h */,
+				918AA45814B87E770019436D /* insert.h */,
 			);
 			path = implementation;
 			sourceTree = "<group>";
