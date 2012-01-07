@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <meta/types.h>
+#include <meta/types.hpp>
 
 int main ()
 {    
