@@ -1,17 +1,17 @@
 //
-//  meta/access/next.hpp
+//  meta/access/iteration/next.hpp
 //
 //  Дмитрий Изволов.
 //  5 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_NEXT_H
-#define META_ACCESS_NEXT_H
+#ifndef META_ACCESS_ITERATION_NEXT_H
+#define META_ACCESS_ITERATION_NEXT_H
 
-#include <meta/inspection/has_next.hpp>
-#include <meta/access/implementation/advance.hpp>
-#include <meta/access/implementation/unwrap.hpp>
-#include <meta/access/implementation/wrap.hpp>
+#include <meta/inspection/iteration/has_next.hpp>
+#include <meta/access/iteration/implementation/advance.hpp>
+#include <meta/access/iteration/implementation/unwrap.hpp>
+#include <meta/access/iteration/implementation/wrap.hpp>
 #include <meta/access/at.hpp>
 
 namespace meta
@@ -35,4 +35,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_ACCESS_NEXT_H
+#endif // META_ACCESS_ITERATION_NEXT_H

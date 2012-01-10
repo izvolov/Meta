@@ -1,15 +1,15 @@
 //
-//  meta/access/implementation/unwrap.hpp
+//  meta/access/iteration/implementation/unwrap.hpp
 //
 //  Дмитрий Изволов.
 //  17 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_IMPLEMENTATION_UNWRAP_H
-#define META_ACCESS_IMPLEMENTATION_UNWRAP_H
+#ifndef META_ACCESS_ITERATION_IMPLEMENTATION_UNWRAP_H
+#define META_ACCESS_ITERATION_IMPLEMENTATION_UNWRAP_H
 
-#include <meta/access/iterator.hpp>
-#include <meta/access/implementation/raw_iterator.hpp>
+#include <meta/access/iteration/iterator.hpp>
+#include <meta/access/iteration/implementation/knot.hpp>
 
 namespace meta
 {
@@ -23,10 +23,10 @@ namespace meta
             template <typename PackedPattern, typename HeadList, typename TailList>
             struct unwrap <iterator<PackedPattern, HeadList, TailList>>
             {
-                typedef raw_iterator<HeadList, TailList> type;
+                typedef knot<HeadList, TailList> type;
             };
         } // namespace impl
     } // namespace iter
 } // namespace meta
 
-#endif // META_ACCESS_IMPLEMENTATION_UNWRAP_H
+#endif // META_ACCESS_ITERATION_IMPLEMENTATION_UNWRAP_H

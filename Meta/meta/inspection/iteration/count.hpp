@@ -1,17 +1,17 @@
 //
-//  meta/inspection/count.hpp
+//  meta/inspection/iteration/count.hpp
 //
 //  Дмитрий Изволов.
 //  18 декабря 2011 года.
 //
 
-#ifndef META_INSPECTION_COUNT_H
-#define META_INSPECTION_COUNT_H
+#ifndef META_INSPECTION_ITERATION_COUNT_H
+#define META_INSPECTION_ITERATION_COUNT_H
 
-#include <meta/inspection/distance.hpp>
-#include <meta/inspection/implementation/count.hpp>
-#include <meta/access/implementation/unwrap.hpp>
-#include <meta/access/implementation/wrap.hpp>
+#include <meta/inspection/iteration/distance.hpp>
+#include <meta/inspection/iteration/implementation/count.hpp>
+#include <meta/access/iteration/implementation/unwrap.hpp>
+#include <meta/access/iteration/implementation/wrap.hpp>
 
 namespace meta
 {
@@ -36,4 +36,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_INSPECTION_COUNT_H
+#endif // META_INSPECTION_ITERATION_COUNT_H

@@ -1,14 +1,14 @@
 //
-//  meta/inspection/distance.hpp
+//  meta/inspection/iteration/distance.hpp
 //
 //  Дмитрий Изволов.
 //  18 декабря 2011 года.
 //
 
-#ifndef META_INSPECTION_DISTANCE_H
-#define META_INSPECTION_DISTANCE_H
+#ifndef META_INSPECTION_ITERATION_DISTANCE_H
+#define META_INSPECTION_ITERATION_DISTANCE_H
 
-#include <meta/inspection/comparable.hpp>
+#include <meta/inspection/iteration/comparable.hpp>
 #include <meta/inspection/size.hpp>
 
 namespace meta
@@ -28,4 +28,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_INSPECTION_DISTANCE_H
+#endif // META_INSPECTION_ITERATION_DISTANCE_H

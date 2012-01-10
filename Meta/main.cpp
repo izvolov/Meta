@@ -1,6 +1,8 @@
 #include <iostream>
 
 #include <meta/types.hpp>
+#include <meta/access.hpp>
+#include <meta/inspection.hpp>
 
 int main ()
 {    

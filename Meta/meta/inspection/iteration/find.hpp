@@ -1,17 +1,17 @@
 //
-//  meta/inspection/find.hpp
+//  meta/inspection/iteration/find.hpp
 //
 //  Дмитрий Изволов.
 //  18 декабря 2011 года.
 //
 
-#ifndef META_INSPECTION_FIND_H
-#define META_INSPECTION_FIND_H
+#ifndef META_INSPECTION_ITERATION_FIND_H
+#define META_INSPECTION_ITERATION_FIND_H
 
-#include <meta/inspection/distance.hpp>
-#include <meta/inspection/implementation/find.hpp>
-#include <meta/access/implementation/unwrap.hpp>
-#include <meta/access/implementation/wrap.hpp>
+#include <meta/inspection/iteration/distance.hpp>
+#include <meta/inspection/iteration/implementation/find.hpp>
+#include <meta/access/iteration/implementation/unwrap.hpp>
+#include <meta/access/iteration/implementation/wrap.hpp>
 
 namespace meta
 {
@@ -38,4 +38,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_INSPECTION_FIND_H
+#endif // META_INSPECTION_ITERATION_FIND_H

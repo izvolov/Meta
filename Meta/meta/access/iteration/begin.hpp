@@ -1,14 +1,14 @@
 //
-//  meta/access/begin.hpp
+//  meta/access/iteration/begin.hpp
 //
 //  Дмитрий Изволов.
 //  6 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_BEGIN_H
-#define META_ACCESS_BEGIN_H
+#ifndef META_ACCESS_ITERATION_BEGIN_H
+#define META_ACCESS_ITERATION_BEGIN_H
 
-#include <meta/access/iterator.hpp>
+#include <meta/access/iteration/iterator.hpp>
 #include <meta/types/pattern_list.hpp>
 #include <meta/access/get_pattern.hpp>
 #include <meta/types/type_list.hpp>
@@ -37,4 +37,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
     
-#endif // META_ACCESS_BEGIN_H
+#endif // META_ACCESS_ITERATION_BEGIN_H

@@ -1,12 +1,12 @@
 //
-//  meta/inspection/comparable.hpp
+//  meta/inspection/iteration/comparable.hpp
 //
 //  Дмитрий Изволов.
 //  18 декабря 2011 года.
 //
 
-#ifndef META_INSPECTION_COMPARABLE_H
-#define META_INSPECTION_COMPARABLE_H
+#ifndef META_INSPECTION_ITERATION_COMPARABLE_H
+#define META_INSPECTION_ITERATION_COMPARABLE_H
 
 namespace meta
 {
@@ -35,4 +35,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_INSPECTION_COMPARABLE_H
+#endif // META_INSPECTION_ITERATION_COMPARABLE_H

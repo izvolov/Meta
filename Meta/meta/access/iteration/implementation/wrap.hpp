@@ -1,15 +1,15 @@
 //
-//  meta/access/implementation/wrap.hpp
+//  meta/access/iteration/implementation/wrap.hpp
 //
 //  Дмитрий Изволов.
 //  17 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_IMPLEMENTATION_WRAP_H
-#define META_ACCESS_IMPLEMENTATION_WRAP_H
+#ifndef META_ACCESS_ITERATION_IMPLEMENTATION_WRAP_H
+#define META_ACCESS_ITERATION_IMPLEMENTATION_WRAP_H
 
-#include <meta/access/implementation/raw_iterator.hpp>
-#include <meta/access/iterator.hpp>
+#include <meta/access/iteration/implementation/knot.hpp>
+#include <meta/access/iteration/iterator.hpp>
 
 namespace meta
 {
@@ -21,7 +21,7 @@ namespace meta
             struct wrap;
             
             template <typename HeadList, typename TailList, typename PackedPattern>
-            struct wrap <raw_iterator<HeadList, TailList>, PackedPattern>
+            struct wrap <knot<HeadList, TailList>, PackedPattern>
             {
                 typedef iterator<PackedPattern, HeadList, TailList> type;
             };
@@ -29,4 +29,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_ACCESS_IMPLEMENTATION_WRAP_H
+#endif // META_ACCESS_ITERATION_IMPLEMENTATION_WRAP_H
