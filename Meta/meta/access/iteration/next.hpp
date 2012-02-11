@@ -29,8 +29,8 @@ namespace meta
         {
             static_assert(has_next<Iterator>::value, "Невозможно продвинуть итератор, поскольку достигнут конец последовательности.");
             
-            typedef typename impl::advance<typename impl::unwrap<Iterator>::type, 1>::type next_raw_iterator;
-            typedef typename impl::wrap<next_raw_iterator, typename at<Iterator, 0>::type>::type type;
+            typedef typename impl::advance<typename impl::unwrap<Iterator>::type, 1>::type next_knot;
+            typedef typename impl::wrap<next_knot, typename Iterator::packed_pattern>::type type;
         };    
     } // namespace iter
 } // namespace meta

@@ -15,7 +15,7 @@ namespace meta
 {
     namespace iter
     {
-        //!    Нахождение расстояния между двумя итераторами.
+        //!     Нахождение расстояния между двумя итераторами.
         /*!
          */
         template <typename First, typename Second>

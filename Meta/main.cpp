@@ -1,27 +1,16 @@
 #include <iostream>
 
 #include <meta/types.hpp>
-#include <meta/access.hpp>
-#include <meta/inspection.hpp>
 
 int main ()
-{    
-    typedef meta::map::create
-    <
-        meta::pair<meta::integer<1>, double>,
-        meta::pair<meta::integer<2>, bool>,
-        meta::pair<meta::integer<3>, short>,
-        meta::pair<meta::integer<4>, long>,
-        meta::pair<meta::integer<5>, float>,
-        meta::pair<meta::integer<6>, unsigned>,
-        meta::pair<meta::integer<7>, std::string>
-    >
-    ::type map0;
+{
+    typedef meta::rational<-2, 3> r1;
+    typedef meta::rational<1, 2> r2;
     
-    typedef meta::map::at<map0, meta::integer<6>>::type type;
-    type x = -1;
-    
-    std::cout << x << std::endl;
+    std::cout << meta::less     <r1, r2>::value << std::endl;
+    std::cout << meta::greater  <r1, r2>::value << std::endl;
+    std::cout << meta::equal    <r1, r2>::value << std::endl;
+    std::cout << meta::different<r1, r2>::value << std::endl;
     
     return 0;
 }
