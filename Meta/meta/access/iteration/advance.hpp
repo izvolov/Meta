@@ -28,10 +28,10 @@ namespace meta
         struct advance
         {
             static_assert(N >= 0, "Второй параметр шаблона должен быть целым неотрицательным числом.");
-            static_assert(N <= size<typename at<Iterator, 2>::type>::value, "Попытка продвинуть итератор выводит его из диапазона допустимых значений.");
+            static_assert(N <= size<typename Iterator::tail>::value, "Попытка продвинуть итератор выводит его из диапазона допустимых значений.");
                         
-            typedef typename impl::advance<typename impl::unwrap<Iterator>::type, N>::type next_raw_iterator;
-            typedef typename impl::wrap<next_raw_iterator, typename at<Iterator, 0>::type>::type type;
+            typedef typename impl::advance<typename impl::unwrap<Iterator>::type, N>::type next_knot;
+            typedef typename impl::wrap<next_knot, typename Iterator::packed_pattern>::type type;
         };    
     } // namespace iter
 } // namespace meta
