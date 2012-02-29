@@ -14,6 +14,7 @@
 #include <meta/types/type_list.hpp>
 #include <meta/common/identity.hpp>
 #include <meta/types/multimap/implementation/balance.hpp>
+#include <meta/types/comparison/less.hpp>
 
 namespace meta
 {
@@ -29,7 +30,12 @@ namespace meta
             {
                 typedef typename select
                 <
-                    InsertedValue::first::value < CurrentValue::first::value,
+                    less
+                    <
+                        typename InsertedValue::first,
+                        typename CurrentValue::first
+                    >
+                    ::value,
                     lazy_instantiate
                     <
                         node,
@@ -62,7 +68,12 @@ namespace meta
             {
                 typedef typename select
                 <
-                    InsertedValue::first::value < CurrentValue::first::value,
+                    less
+                    <
+                        typename InsertedValue::first,
+                        typename CurrentValue::first
+                    >
+                    ::value,
                     lazy_instantiate
                     <
                         node,
@@ -89,7 +100,12 @@ namespace meta
             {
                 typedef typename select
                 <
-                    InsertedValue::first::value < CurrentValue::first::value,
+                    less
+                    <
+                        typename InsertedValue::first,
+                        typename CurrentValue::first
+                    >
+                    ::value,
                     identity
                     <
                         node<node<void, void, InsertedValue>, Right, CurrentValue>
@@ -116,7 +132,12 @@ namespace meta
             {
                 typedef typename select
                 <
-                    InsertedValue::first::value < CurrentValue::first::value,
+                    less
+                    <
+                        typename InsertedValue::first,
+                        typename CurrentValue::first
+                    >
+                    ::value,
                     node<node<void, void, InsertedValue>, void, CurrentValue>,
                     node<void, node<void, void, InsertedValue>, CurrentValue>
                 >

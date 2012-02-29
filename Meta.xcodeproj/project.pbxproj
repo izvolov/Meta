@@ -31,6 +31,7 @@
 		912980731493F8F800D73EC7 /* Meta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Meta; sourceTree = BUILT_PRODUCTS_DIR; };
 		912980771493F8F800D73EC7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = main.cpp; path = Meta/main.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		912980791493F8F800D73EC7 /* Meta.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Meta.1; sourceTree = "<group>"; };
+		912CD25A14ED91880007D5EA /* decimal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = decimal.hpp; sourceTree = "<group>"; };
 		91698ED114AF953700DF4575 /* lazy_instantiate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lazy_instantiate.hpp; sourceTree = "<group>"; };
 		91698ED314AF95D500DF4575 /* identity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = identity.hpp; sourceTree = "<group>"; };
 		9171288414B31ED900625C7F /* multimap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = multimap.hpp; path = Meta/meta/types/multimap.hpp; sourceTree = SOURCE_ROOT; };
@@ -142,6 +143,7 @@
 		9199081614BCAF8D00042F6A /* count.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = count.hpp; sourceTree = "<group>"; };
 		9199081714BCAF8D00042F6A /* find.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = find.hpp; sourceTree = "<group>"; };
 		9199081814BCAFA300042F6A /* iteration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iteration.hpp; sourceTree = "<group>"; };
+		91A9830414EFA41D007836DF /* digits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = digits.hpp; sourceTree = "<group>"; };
 		91FF781F14E65D0B00B3BAA9 /* minus.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = minus.hpp; sourceTree = "<group>"; };
 		91FF782114E65D9000B3BAA9 /* minus.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = minus.hpp; sourceTree = "<group>"; };
 		91FF782214E65FB700B3BAA9 /* multiply.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = multiply.hpp; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 				91FF782314E65FDA00B3BAA9 /* multiply.hpp */,
 				91FF782514E6608600B3BAA9 /* divide.hpp */,
 				91FF782B14E66A6300B3BAA9 /* fix_sign.hpp */,
+				91A9830414EFA41D007836DF /* digits.hpp */,
 			);
 			path = implementation;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				9171289E14B3371500625C7F /* rational.hpp */,
 				918D9652149CC01B00B01A20 /* type_list.hpp */,
 				9183E319149F9D500006B1DA /* value_list.hpp */,
+				912CD25A14ED91880007D5EA /* decimal.hpp */,
 			);
 			path = types;
 			sourceTree = "<group>";

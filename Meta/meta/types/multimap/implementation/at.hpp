@@ -10,6 +10,7 @@
 
 #include <meta/types/multimap/implementation/node.hpp>
 #include <meta/common/select.hpp>
+#include <meta/types/comparison/less.hpp>
 #include <meta/types/pair.hpp>
 #include <meta/common/identity.hpp>
 
@@ -27,7 +28,12 @@ namespace meta
             {
                 typedef typename select
                 <
-                    Key::value < CurrentValue::first::value,
+                    less
+                    <
+                        Key,
+                        typename CurrentValue::first
+                    >
+                    ::value,
                     at<Left, Key>,
                     at<Right, Key>
                 >
@@ -47,7 +53,12 @@ namespace meta
             {
                 typedef typename select
                 <
-                    Key::value < CurrentValue::first::value,
+                    less
+                    <
+                        Key,
+                        typename CurrentValue::first
+                    >
+                    ::value,
                     at<Left, Key>,
                     identity<void>
                 >
@@ -67,7 +78,12 @@ namespace meta
             {
                 typedef typename select
                 <
-                    Key::value < CurrentValue::first::value,
+                    less
+                    <
+                        Key,
+                        typename CurrentValue::first
+                    >
+                    ::value,
                     identity<void>,
                     at<Right, Key>
                 >
