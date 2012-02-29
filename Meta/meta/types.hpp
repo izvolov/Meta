@@ -10,6 +10,7 @@
 
 #include <meta/types/arithmetic.hpp>
 #include <meta/types/comparison.hpp>
+#include <meta/types/decimal.hpp>
 #include <meta/types/integer.hpp>
 #include <meta/types/map.hpp>
 #include <meta/types/multimap.hpp>
