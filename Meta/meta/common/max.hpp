@@ -24,12 +24,6 @@ namespace meta
         static constexpr int value = First > others_max ? First : others_max;
     };
     
-    template <int First, int Second>
-    struct max <First, Second>
-    {
-        static constexpr int value = First > Second ? First : Second;
-    };
-    
     template <int Number>
     struct max <Number>
     {

@@ -14,7 +14,7 @@ namespace meta
     /*!
             Результатом этой метафункции является конкретизация шаблона "Pattern" теми же типами,
         которыми конкретизирован класс "Class".
-            Время компиляции — константно, то есть O(1).
+            Время компиляции постоянно, то есть O(1).
      */
     template <class Class, template <typename ...> class Pattern>
     struct repattern;

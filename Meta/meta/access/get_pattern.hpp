@@ -14,6 +14,7 @@ namespace meta
     /*!
             Результатом этой метафункции является шаблон, который в дальнейшем может быть
         конкретизирован любыми новыми типами, доступными данному шаблону.
+            Время компиляции постоянно, то есть O(1).
      */
     template <typename Class>
     struct get_pattern;
@@ -23,6 +24,13 @@ namespace meta
     {
         template <typename ... FutureTypes>
         using pattern = Pattern<FutureTypes ...>;
+    };
+    
+    template <template <int ...> class Pattern, int ... Numbers>
+    struct get_pattern <Pattern<Numbers ...>>
+    {
+        template <int ... FutureNumbers>
+        using pattern = Pattern<FutureNumbers ...>;
     };
 } // namespace meta
 

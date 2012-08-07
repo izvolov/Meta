@@ -19,11 +19,10 @@ namespace meta
             template <typename Left, typename Right, typename MapValue>
             struct node
             {
-                static constexpr int key = MapValue::first::value;
-                typedef typename MapValue::second mapped_type;
                 typedef MapValue value_type;
                 
                 static constexpr int height = max<Left::height, Right::height>::value + 1;
+                static constexpr int size = Left::size + Right::size + 1;
                 
                 typedef Left left;
                 typedef Right right;
@@ -32,11 +31,10 @@ namespace meta
             template <typename Left, typename MapValue>
             struct node <Left, void, MapValue>
             {
-                static constexpr int key = MapValue::first::value;
-                typedef typename MapValue::second mapped_type;
                 typedef MapValue value_type;
                 
                 static constexpr int height = Left::height + 1;
+                static constexpr int size = Left::size + 1;
                 
                 typedef Left left;
                 typedef void right;
@@ -45,11 +43,10 @@ namespace meta
             template <typename Right, typename MapValue>
             struct node <void, Right, MapValue>
             {
-                static constexpr int key = MapValue::first::value;
-                typedef typename MapValue::second mapped_type;
                 typedef MapValue value_type;
                 
                 static constexpr int height = Right::height + 1;
+                static constexpr int size = Right::size + 1;
                 
                 typedef void left;
                 typedef Right right;
@@ -58,11 +55,10 @@ namespace meta
             template <typename MapValue>
             struct node <void, void, MapValue>
             {
-                static constexpr int key = MapValue::first::value;
-                typedef typename MapValue::second mapped_type;
                 typedef MapValue value_type;
                 
                 static constexpr int height = 1;
+                static constexpr int size = 1;
                 
                 typedef void left;
                 typedef void right;

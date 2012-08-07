@@ -17,7 +17,7 @@ namespace meta
     /*!
             Результатом этой метафукнции является шаблон класса "Class", конкретизированный типами
         из списка типов "TypeList".
-            Время компиляции — константно, то есть O(1).
+            Время компиляции постоянно, то есть O(1).
      */
     template <template <typename ...> class Class, typename TypeList>
     struct instantiate;

@@ -14,7 +14,7 @@ namespace meta
     /*!
             Предназначен для хранения наборов значений и передачи их между метафункциями.
      */
-    template <typename Type, Type ... values>
+    template <typename Type, Type ... Values>
     struct value_list
     {
     };

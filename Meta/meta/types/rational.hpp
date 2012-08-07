@@ -16,7 +16,7 @@ namespace meta
     template <int Numerator, int Denominator>
     struct rational
     {
-        static constexpr double value = static_cast<double>(Numerator) / Denominator;
+//        static constexpr double value = static_cast<double>(Numerator) / Denominator;
         
         static constexpr int numerator = Numerator;
         static constexpr int denominator = Denominator;
