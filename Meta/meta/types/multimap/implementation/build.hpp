@@ -1,12 +1,12 @@
 //
-//  meta/types/multimap/implementation/create.hpp
+//  meta/types/multimap/implementation/build.hpp
 //
 //  Дмитрий Изволов.
 //  22 декабря 2011 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_CREATE_H
-#define META_TYPES_MULTIMAP_IMPLEMENTATION_CREATE_H
+#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_BUILD_H
+#define META_TYPES_MULTIMAP_IMPLEMENTATION_BUILD_H
 
 #include <meta/types/multimap/implementation/insert.hpp>
 
@@ -17,13 +17,13 @@ namespace meta
         namespace impl
         {
             template <typename MapNode, typename FirstValue, typename ... OtherValues>
-            struct create
+            struct build
             {
-                typedef typename create<typename insert<MapNode, FirstValue>::type, OtherValues ...>::type type;
+                typedef typename build<typename insert<MapNode, FirstValue>::type, OtherValues ...>::type type;
             };
             
             template <typename MapNode, typename Value>
-            struct create <MapNode, Value>
+            struct build <MapNode, Value>
             {
                 typedef typename insert<MapNode, Value>::type type;
             };
@@ -31,4 +31,4 @@ namespace meta
     } // namespace multimap
 } // namespace meta
 
-#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_CREATE_H
+#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_BUILD_H

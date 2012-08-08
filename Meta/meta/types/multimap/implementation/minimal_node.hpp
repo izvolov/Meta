@@ -1,12 +1,12 @@
 //
-//  meta/types/multimap/implementation/minimum.hpp
+//  meta/types/multimap/implementation/minimal_node.hpp
 //
 //  Дмитрий Изволов.
 //  24 декабря 2011 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_MIN_VALUE_H
-#define META_TYPES_MULTIMAP_IMPLEMENTATION_MIN_VALUE_H
+#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_MINIMAL_NODE_H
+#define META_TYPES_MULTIMAP_IMPLEMENTATION_MINIMAL_NODE_H
 
 #include <meta/types/multimap/implementation/node.hpp>
 
@@ -17,16 +17,16 @@ namespace meta
         namespace impl
         {
             template <typename Node>
-            struct minimum;
+            struct minimal_node;
             
-            template <typename Left, typename Right, typename CurrentValue>
-            struct minimum <node<Left, Right, CurrentValue>>
+            template <typename LeftBranch, typename RightBranch, typename CurrentValue>
+            struct minimal_node <node<LeftBranch, RightBranch, CurrentValue>>
             {
-                typedef typename minimum<Left>::type type;
+                typedef typename minimal_node<LeftBranch>::type type;
             };
             
-            template <typename Right, typename CurrentValue>
-            struct minimum <node<void, Right, CurrentValue>>
+            template <typename RightBranch, typename CurrentValue>
+            struct minimal_node <node<void, RightBranch, CurrentValue>>
             {
                 typedef CurrentValue type;
             };
@@ -34,4 +34,4 @@ namespace meta
     } // namespace multimap
 } // namespace meta
 
-#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_MIN_VALUE_H
+#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_MINIMAL_NODE_H

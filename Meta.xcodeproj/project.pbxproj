@@ -36,16 +36,16 @@
 		91698ED314AF95D500DF4575 /* identity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = identity.hpp; sourceTree = "<group>"; };
 		9171288414B31ED900625C7F /* multimap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = multimap.hpp; path = Meta/meta/types/multimap.hpp; sourceTree = SOURCE_ROOT; };
 		9171288514B31F4900625C7F /* at.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = at.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		9171288614B31F4900625C7F /* create.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = create.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9171288614B31F4900625C7F /* build.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = build.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		9171288714B31F4900625C7F /* erase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = erase.hpp; sourceTree = "<group>"; };
 		9171288914B31F4900625C7F /* at.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = at.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		9171288A14B31F4900625C7F /* balance.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = balance.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
-		9171288B14B31F4900625C7F /* create.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = create.hpp; sourceTree = "<group>"; };
+		9171288B14B31F4900625C7F /* build.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = build.hpp; sourceTree = "<group>"; };
 		9171288C14B31F4900625C7F /* erase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = erase.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		9171288D14B31F4900625C7F /* insert.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = insert.hpp; sourceTree = "<group>"; };
 		9171288E14B31F4900625C7F /* left_height.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = left_height.hpp; sourceTree = "<group>"; };
 		9171288F14B31F4900625C7F /* node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = node.hpp; sourceTree = "<group>"; };
-		9171289014B31F4900625C7F /* minimum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = minimum.hpp; sourceTree = "<group>"; };
+		9171289014B31F4900625C7F /* minimal_node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = minimal_node.hpp; sourceTree = "<group>"; };
 		9171289114B31F4900625C7F /* right_height.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = right_height.hpp; sourceTree = "<group>"; };
 		9171289214B31F4900625C7F /* rotate_left.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rotate_left.hpp; sourceTree = "<group>"; };
 		9171289314B31F4900625C7F /* rotate_left_large.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rotate_left_large.hpp; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		9171289614B31F4900625C7F /* rotate_right_large.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rotate_right_large.hpp; sourceTree = "<group>"; };
 		9171289714B31F4900625C7F /* rotate_right_small.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rotate_right_small.hpp; sourceTree = "<group>"; };
 		9171289814B31F4900625C7F /* insert.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = insert.hpp; sourceTree = "<group>"; };
-		9171289A14B31F4900625C7F /* minimum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = minimum.hpp; sourceTree = "<group>"; };
+		9171289A14B31F4900625C7F /* minimal_node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = minimal_node.hpp; sourceTree = "<group>"; };
 		9171289B14B3280B00625C7F /* instance.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = instance.hpp; sourceTree = "<group>"; };
 		9171289C14B32FFD00625C7F /* pair.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pair.hpp; sourceTree = "<group>"; };
 		9171289D14B3306300625C7F /* integer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = integer.hpp; sourceTree = "<group>"; };
@@ -78,6 +78,10 @@
 		918A233814D1C7380052DB4E /* greatest_common_divisor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = greatest_common_divisor.hpp; sourceTree = "<group>"; };
 		918A233914D1CB5E0052DB4E /* simplify.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = simplify.hpp; sourceTree = "<group>"; };
 		918AA45814B87E770019436D /* insert.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = insert.hpp; sourceTree = "<group>"; };
+		918BB31415D144A1004E3D0B /* maximum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = maximum.hpp; sourceTree = "<group>"; };
+		918BB31615D147DF004E3D0B /* maximum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = maximum.hpp; sourceTree = "<group>"; };
+		918BB31715D14BF4004E3D0B /* minimum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = minimum.hpp; sourceTree = "<group>"; };
+		918BB31815D14C64004E3D0B /* minimum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minimum.hpp; sourceTree = "<group>"; };
 		918D9615149CC01B00B01A20 /* at.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = at.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		918D9618149CC01B00B01A20 /* get_pattern.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = get_pattern.hpp; sourceTree = "<group>"; };
 		918D9619149CC01B00B01A20 /* get_types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = get_types.hpp; sourceTree = "<group>"; };
@@ -193,6 +197,7 @@
 		912980761493F8F800D73EC7 /* Meta */ = {
 			isa = PBXGroup;
 			children = (
+				91ED088315D28057003D276D /* tests */,
 				918D9613149CC01B00B01A20 /* meta */,
 				912980791493F8F800D73EC7 /* Meta.1 */,
 			);
@@ -203,12 +208,12 @@
 			isa = PBXGroup;
 			children = (
 				9171288514B31F4900625C7F /* at.hpp */,
-				9171288614B31F4900625C7F /* create.hpp */,
+				9171288614B31F4900625C7F /* build.hpp */,
 				9171288714B31F4900625C7F /* erase.hpp */,
 				9171288814B31F4900625C7F /* implementation */,
 				9171289814B31F4900625C7F /* insert.hpp */,
 				9171289B14B3280B00625C7F /* instance.hpp */,
-				9171289A14B31F4900625C7F /* minimum.hpp */,
+				9171289A14B31F4900625C7F /* minimal_node.hpp */,
 			);
 			path = multimap;
 			sourceTree = "<group>";
@@ -218,12 +223,12 @@
 			children = (
 				9171288914B31F4900625C7F /* at.hpp */,
 				9171288A14B31F4900625C7F /* balance.hpp */,
-				9171288B14B31F4900625C7F /* create.hpp */,
+				9171288B14B31F4900625C7F /* build.hpp */,
 				9171288C14B31F4900625C7F /* erase.hpp */,
 				9171288D14B31F4900625C7F /* insert.hpp */,
 				9171288E14B31F4900625C7F /* left_height.hpp */,
 				9171288F14B31F4900625C7F /* node.hpp */,
-				9171289014B31F4900625C7F /* minimum.hpp */,
+				9171289014B31F4900625C7F /* minimal_node.hpp */,
 				9171289114B31F4900625C7F /* right_height.hpp */,
 				9171289214B31F4900625C7F /* rotate_left.hpp */,
 				9171289314B31F4900625C7F /* rotate_left_large.hpp */,
@@ -475,6 +480,13 @@
 			path = implementation;
 			sourceTree = "<group>";
 		};
+		91ED088315D28057003D276D /* tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
 		91FF782614E6650C00B3BAA9 /* comparison */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,6 +495,8 @@
 				91FF782C14E6930300B3BAA9 /* greater.hpp */,
 				91FF782E14E693B800B3BAA9 /* equal.hpp */,
 				91FF783014E6996900B3BAA9 /* different.hpp */,
+				918BB31415D144A1004E3D0B /* maximum.hpp */,
+				918BB31815D14C64004E3D0B /* minimum.hpp */,
 			);
 			path = comparison;
 			sourceTree = "<group>";
@@ -494,6 +508,8 @@
 				91FF782D14E6933300B3BAA9 /* greater.hpp */,
 				91FF782F14E693D900B3BAA9 /* equal.hpp */,
 				91FF783114E6998F00B3BAA9 /* different.hpp */,
+				918BB31615D147DF004E3D0B /* maximum.hpp */,
+				918BB31715D14BF4004E3D0B /* minimum.hpp */,
 			);
 			path = implementation;
 			sourceTree = "<group>";

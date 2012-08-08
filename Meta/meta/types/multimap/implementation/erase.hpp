@@ -15,7 +15,7 @@
 #include <meta/common/identity.hpp>
 #include <meta/types/multimap/implementation/balance.hpp>
 #include <meta/types/pair.hpp>
-#include <meta/types/multimap/implementation/minimum.hpp>
+#include <meta/types/multimap/implementation/minimal_node.hpp>
 
 namespace meta
 {
@@ -57,7 +57,7 @@ namespace meta
             template <typename Left, typename Right, typename Key, typename Mapped>
             struct erase <node<Left, Right, pair<Key, Mapped>>, Key>
             {
-                typedef erase<Right, typename minimum<Right>::type::first> eraser;
+                typedef erase<Right, typename minimal_node<Right>::type::first> eraser;
                 
                 typedef node<Left, typename eraser::type, typename eraser::erased_value> node;
                 typedef typename balance<node>::type type;            

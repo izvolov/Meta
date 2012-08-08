@@ -1,14 +1,24 @@
 //
-//  maximum.h
-//  Meta
+//  meta/types/comparison/maximum.hpp
 //
-//  Created by Дмитрий Изволов on 07.08.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Дмитрий Изволов.
+//  7 августа 2012 года.
 //
 
-#ifndef Meta_maximum_h
-#define Meta_maximum_h
+#ifndef META_TYPES_COMPARISON_MAXIMUM_HPP
+#define META_TYPES_COMPARISON_MAXIMUM_HPP
 
+#include <meta/types/comparison/implementation/maximum.hpp>
 
+namespace meta
+{
+    template <typename ... Types>
+    struct maximum
+    {
+        // Добавить проверку на сравнимость.
+        
+        typedef typename impl::maximum<Types ...>::type type;
+    };
+} // namespace meta
 
-#endif
+#endif // META_TYPES_COMPARISON_MAXIMUM_HPP
