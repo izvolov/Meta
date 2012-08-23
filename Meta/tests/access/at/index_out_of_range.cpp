@@ -1,9 +1,16 @@
 //
-//  index_out_of_range.cpp
-//  Meta
+//  tests/access/at/index_out_of_range.cpp
 //
-//  Created by Дмитрий Изволов on 23.08.12.
-//
+//  Дмитрий Изволов.
+//  23 августа 2012 года.
 //
 
-#include <stdio.h>
+#include <tuple>
+
+#include <meta/access/at.hpp>
+
+typedef std::tuple<bool, double, char> tuple;
+
+typedef meta::at<tuple, 3>::type error;
+
+// ОШИБКА

@@ -1,9 +1,16 @@
 //
-//  at_negative_index.cpp
-//  Meta
+//  tests/access/at/negative_index.cpp
 //
-//  Created by Дмитрий Изволов on 23.08.12.
-//
+//  Дмитрий Изволов.
+//  23 августа 2012 года.
 //
 
-#include <stdio.h>
+#include <tuple>
+
+#include <meta/access/at.hpp>
+
+typedef std::tuple<bool, double, char> tuple;
+
+typedef meta::at<tuple, -1>::type error;
+
+// ОШИБКА
