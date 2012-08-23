@@ -23,6 +23,27 @@ namespace meta
     {
         static constexpr int value = sizeof...(Types);
     };
+    
+    template
+    <
+        template <template <typename ...> class ...> class OuterPattern,
+        template <typename ...> class ... InnerPatterns
+    >
+    struct size <OuterPattern<InnerPatterns...>>
+    {
+        static constexpr int value = sizeof...(InnerPatterns);
+    };
+    
+    template
+    <
+        typename Integer,
+        template <typename Int, Int ...> class Pattern,
+        Integer ... Numbers
+    >
+    struct size <Pattern<Integer, Numbers ...>>
+    {
+        static constexpr int value = sizeof...(Numbers);
+    };
 } // namespace meta
 
 #endif // META_INSPECTION_SIZE_H

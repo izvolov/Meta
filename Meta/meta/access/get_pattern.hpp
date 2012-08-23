@@ -26,11 +26,11 @@ namespace meta
         using pattern = Pattern<FutureTypes ...>;
     };
     
-    template <template <int ...> class Pattern, int ... Numbers>
-    struct get_pattern <Pattern<Numbers ...>>
+    template <typename Integer, template <typename, Integer ...> class Pattern, Integer ... Numbers>
+    struct get_pattern <Pattern<Integer, Numbers ...>>
     {
-        template <int ... FutureNumbers>
-        using pattern = Pattern<FutureNumbers ...>;
+        template <typename NewInteger, NewInteger ... FutureNumbers>
+        using pattern = Pattern<NewInteger, FutureNumbers ...>;
     };
 } // namespace meta
 
