@@ -31,6 +31,7 @@
 		9122E3D315E63924000AF353 /* index_out_of_range.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = index_out_of_range.cpp; sourceTree = "<group>"; };
 		9122E3D615E64348000AF353 /* run_test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_test.sh; sourceTree = "<group>"; };
 		9122E3D715E64348000AF353 /* test_all.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test_all.sh; sourceTree = "<group>"; };
+		9122E3D815E655F7000AF353 /* untested.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = untested.sh; sourceTree = "<group>"; };
 		912980731493F8F800D73EC7 /* Meta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Meta; sourceTree = BUILT_PRODUCTS_DIR; };
 		912980771493F8F800D73EC7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = main.cpp; path = Meta/main.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		912980791493F8F800D73EC7 /* Meta.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Meta.1; sourceTree = "<group>"; };
@@ -497,6 +498,7 @@
 			children = (
 				9122E3D615E64348000AF353 /* run_test.sh */,
 				9122E3D715E64348000AF353 /* test_all.sh */,
+				9122E3D815E655F7000AF353 /* untested.sh */,
 				91F948B515E3D79100065995 /* access */,
 				9184F17D15DC37100094ADA4 /* common */,
 			);

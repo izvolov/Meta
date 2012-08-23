@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #
-#   tests/common/test_all.sh
+#   tests/test_all.sh
 #
 #   Дмитрий Изволов.
 #   23 августа 2012 года.

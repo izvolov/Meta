@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #
-#   tests/common/run_test.sh
+#   tests/run_test.sh
 #
 #   Дмитрий Изволов.
 #   15 августа 2012 года.
