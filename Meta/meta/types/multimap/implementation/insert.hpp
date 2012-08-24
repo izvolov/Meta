@@ -9,7 +9,6 @@
 #define META_TYPES_MULTIMAP_IMPLEMENTATION_INSERT_H
 
 #include <meta/types/multimap/implementation/node.hpp>
-#include <meta/common/select.hpp>
 #include <meta/creation/lazy_instantiate.hpp>
 #include <meta/types/type_list.hpp>
 #include <meta/common/identity.hpp>
@@ -28,7 +27,7 @@ namespace meta
             template <typename Left, typename Right, typename CurrentValue, typename InsertedValue>
             struct insert <node<Left, Right, CurrentValue>, InsertedValue>
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     less
                     <
@@ -66,7 +65,7 @@ namespace meta
             template <typename Left, typename CurrentValue, typename InsertedValue>
             struct insert <node<Left, void, CurrentValue>, InsertedValue>
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     less
                     <
@@ -98,7 +97,7 @@ namespace meta
             template <typename Right, typename CurrentValue, typename InsertedValue>
             struct insert <node<void, Right, CurrentValue>, InsertedValue>
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     less
                     <
@@ -130,7 +129,7 @@ namespace meta
             template <typename CurrentValue, typename InsertedValue>
             struct insert <node<void, void, CurrentValue>, InsertedValue>
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     less
                     <

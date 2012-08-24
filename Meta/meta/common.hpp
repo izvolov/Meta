@@ -10,6 +10,5 @@
 
 #include <meta/common/identity.hpp>
 #include <meta/common/max.hpp>
-#include <meta/common/select.hpp>
 
 #endif // META_COMMON_H

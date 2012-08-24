@@ -9,7 +9,6 @@
 #define META_TYPES_ARITHMETIC_IMPLEMENTATION_FIX_SIGN_HPP
 
 #include <meta/types/rational.hpp>
-#include <meta/common/select.hpp>
 
 namespace meta
 {
@@ -21,7 +20,7 @@ namespace meta
         template <int Numerator, int Denominator>
         struct fix_sign <rational<Numerator, Denominator>>
         {
-            typedef typename select
+            typedef typename std::conditional
             <
                 Denominator < 0,
                 rational<-Numerator, -Denominator>,

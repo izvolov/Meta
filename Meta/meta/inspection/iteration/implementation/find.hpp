@@ -8,7 +8,6 @@
 #ifndef META_INSPECTION_ITERATION_IMPLEMENTATION_FIND_H
 #define META_INSPECTION_ITERATION_IMPLEMENTATION_FIND_H
 
-#include <meta/common/select.hpp>
 #include <meta/access/at.hpp>
 #include <meta/access/iteration/advance.hpp>
 
@@ -21,7 +20,7 @@ namespace meta
             template <typename First, typename Second, typename Type>
             struct find
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     std::is_same
                     <

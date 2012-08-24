@@ -8,7 +8,6 @@
 #ifndef META_TYPES_MAP_IMPLEMENTATION_INSERT_H
 #define META_TYPES_MAP_IMPLEMENTATION_INSERT_H
 
-#include <meta/common/select.hpp>
 #include <meta/types/multimap/implementation/at.hpp>
 #include <meta/types/multimap/implementation/insert.hpp>
 #include <meta/common/identity.hpp>
@@ -22,7 +21,7 @@ namespace meta
             template <typename Node, typename MapValue>
             struct insert
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     std::is_void
                     <

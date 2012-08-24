@@ -9,7 +9,6 @@
 #define META_TYPES_MULTIMAP_IMPLEMENTATION_AT_H
 
 #include <meta/types/multimap/implementation/node.hpp>
-#include <meta/common/select.hpp>
 #include <meta/types/comparison/less.hpp>
 #include <meta/types/pair.hpp>
 #include <meta/common/identity.hpp>
@@ -26,7 +25,7 @@ namespace meta
             template <typename Left, typename Right, typename CurrentValue, typename Key>
             struct at <node<Left, Right, CurrentValue>, Key>
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     less
                     <
@@ -51,7 +50,7 @@ namespace meta
             template <typename Left, typename CurrentValue, typename Key>
             struct at <node<Left, void, CurrentValue>, Key>
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     less
                     <
@@ -76,7 +75,7 @@ namespace meta
             template <typename Right, typename CurrentValue, typename Key>
             struct at <node<void, Right, CurrentValue>, Key>
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     less
                     <

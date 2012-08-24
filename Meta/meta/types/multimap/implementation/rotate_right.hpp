@@ -22,7 +22,7 @@ namespace meta
             template <typename Node>
             struct rotate_right
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     right_height<typename Node::left>::value <= left_height<typename Node::left>::value,
                     rotate_right_small<Node>,

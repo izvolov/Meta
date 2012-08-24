@@ -24,11 +24,11 @@ namespace meta
             {
                 static constexpr int height_difference = left_height<Node>::value - right_height<Node>::value;
                 
-                typedef typename select
+                typedef typename std::conditional
                 <
                     height_difference < -1,
                     rotate_left<Node>,
-                    typename select
+                    typename std::conditional
                     <
                         (height_difference > 1),
                         rotate_right<Node>,

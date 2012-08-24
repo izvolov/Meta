@@ -9,7 +9,6 @@
 #define META_TYPES_MULTIMAP_IMPLEMENTATION_ERASE_H
 
 #include <meta/types/multimap/implementation/node.hpp>
-#include <meta/common/select.hpp>
 #include <meta/creation/lazy_instantiate.hpp>
 #include <meta/types/type_list.hpp>
 #include <meta/common/identity.hpp>
@@ -31,7 +30,7 @@ namespace meta
             template <typename Left, typename Right, typename CurrentValue, typename Key>
             struct erase <node<Left, Right, CurrentValue>, Key>
             {
-                typedef typename select
+                typedef typename std::conditional
                 <
                     Key::value < CurrentValue::first::value,
                     erase<Left, Key>,
@@ -39,7 +38,7 @@ namespace meta
                 >
                 ::type eraser; // "Ленивый" результат удаления справа или слева.
                 
-                typedef typename select
+                typedef typename std::conditional
                 <
                     Key::value < CurrentValue::first::value,
                     lazy_instantiate<node, type_list<eraser, identity<Right>, identity<CurrentValue>>>,
