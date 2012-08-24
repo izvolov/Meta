@@ -14,11 +14,10 @@ files=(`find ../meta -name "*.hpp"`)
 for file in ${files[@]};
 do
     directory=${file#*meta/}
-    directory=${directory%.hpp*}/
+    directory=${directory%.hpp*}
     if ! [ -d $directory ];
     then
         untested_file=${file#../}
-        untested_file=${untested_file//\/\//\/}
         echo $untested_file
     fi
 done
