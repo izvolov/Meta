@@ -1,3 +1,8 @@
+//
+//  Дмитрий Изволов.
+//  14 июля 2013 года.
+//
+
 #include <iostream>
 #include <tuple>
 #include <string>
