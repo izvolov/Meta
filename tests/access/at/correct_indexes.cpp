@@ -1,6 +1,4 @@
 //
-//  tests/access/at/correct_indexes.cpp
-//
 //  Дмитрий Изволов.
 //  21 августа 2012 года.
 //

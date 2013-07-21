@@ -1,6 +1,4 @@
 //
-//  tests/access/at/index_out_of_range.cpp
-//
 //  Дмитрий Изволов.
 //  23 августа 2012 года.
 //
