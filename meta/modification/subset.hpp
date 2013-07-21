@@ -5,8 +5,8 @@
 //  21 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_SUBSET_H
-#define META_MODIFICATION_SUBSET_H
+#ifndef META_MODIFICATION_SUBSET_HPP
+#define META_MODIFICATION_SUBSET_HPP
 
 #include <meta/modification/implementation/subset.hpp>
 #include <meta/access/get_types.hpp>
@@ -33,4 +33,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_MODIFICATION_SUBSET_H
+#endif // META_MODIFICATION_SUBSET_HPP

@@ -5,8 +5,8 @@
 //  4 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_IMPLEMENTATION_SPLIT_H
-#define META_MODIFICATION_IMPLEMENTATION_SPLIT_H
+#ifndef META_MODIFICATION_IMPLEMENTATION_SPLIT_HPP
+#define META_MODIFICATION_IMPLEMENTATION_SPLIT_HPP
 
 #include <meta/types/type_list.hpp>
 #include <meta/modification/implementation/move_left.hpp>

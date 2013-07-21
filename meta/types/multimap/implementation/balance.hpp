@@ -5,8 +5,8 @@
 //  2 января 2012 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_BALANCE_H
-#define META_TYPES_MULTIMAP_IMPLEMENTATION_BALANCE_H
+#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_BALANCE_HPP
+#define META_TYPES_MULTIMAP_IMPLEMENTATION_BALANCE_HPP
 
 #include <meta/types/multimap/implementation/left_height.hpp>
 #include <meta/types/multimap/implementation/right_height.hpp>
@@ -44,4 +44,4 @@ namespace meta
     } // namespace multimap
 } // namespace meta
 
-#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_BALANCE_H
+#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_BALANCE_HPP

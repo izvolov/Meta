@@ -5,8 +5,8 @@
 //  22 декабря 2011 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_BUILD_H
-#define META_TYPES_MULTIMAP_BUILD_H
+#ifndef META_TYPES_MULTIMAP_BUILD_HPP
+#define META_TYPES_MULTIMAP_BUILD_HPP
 
 #include <meta/types/multimap/instance.hpp>
 #include <meta/types/multimap/implementation/build.hpp>
@@ -42,4 +42,4 @@ namespace meta
     } // namespace multimap
 } // namespace meta
 
-#endif // META_TYPES_MULTIMAP_BUILD_H
+#endif // META_TYPES_MULTIMAP_BUILD_HPP

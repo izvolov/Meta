@@ -5,8 +5,8 @@
 //  31 декабря 2011 года.
 //
 
-#ifndef META_CREATION_LAZY_INSTANTIATE_H
-#define META_CREATION_LAZY_INSTANTIATE_H
+#ifndef META_CREATION_LAZY_INSTANTIATE_HPP
+#define META_CREATION_LAZY_INSTANTIATE_HPP
 
 #include <meta/types/type_list.hpp>
 
@@ -35,4 +35,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_CREATION_LAZY_INSTANTIATE_H
+#endif // META_CREATION_LAZY_INSTANTIATE_HPP

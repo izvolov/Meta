@@ -5,8 +5,8 @@
 //  7 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_GET_PATTERN_H
-#define META_ACCESS_GET_PATTERN_H
+#ifndef META_ACCESS_GET_PATTERN_HPP
+#define META_ACCESS_GET_PATTERN_HPP
 
 namespace meta
 {
@@ -34,4 +34,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_ACCESS_GET_PATTERN_H
+#endif // META_ACCESS_GET_PATTERN_HPP

@@ -5,8 +5,8 @@
 //  4 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_POP_FRONT_H
-#define META_MODIFICATION_POP_FRONT_H
+#ifndef META_MODIFICATION_POP_FRONT_HPP
+#define META_MODIFICATION_POP_FRONT_HPP
 
 #include <meta/modification/implementation/pop_front.hpp>
 #include <meta/types/type_list.hpp>

@@ -5,8 +5,8 @@
 //  4 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_GET_TYPES_H
-#define META_ACCESS_GET_TYPES_H
+#ifndef META_ACCESS_GET_TYPES_HPP
+#define META_ACCESS_GET_TYPES_HPP
 
 #include <meta/types/type_list.hpp>
 
@@ -28,4 +28,4 @@ namespace meta
     };
 }
 
-#endif // META_ACCESS_GET_TYPES_H
+#endif // META_ACCESS_GET_TYPES_HPP

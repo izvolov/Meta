@@ -6,7 +6,7 @@
 //
 
 #ifndef META_TYPES_IMULTIMAP_MPLEMENTATION_ROTATE_RIGHT_H
-#define META_TYPES_MULTIMAP_IMPLEMENTATION_ROTATE_RIGHT_H
+#define META_TYPES_MULTIMAP_IMPLEMENTATION_ROTATE_RIGHT_HPP
 
 #include <meta/types/multimap/implementation/left_height.hpp>
 #include <meta/types/multimap/implementation/right_height.hpp>
@@ -36,4 +36,4 @@ namespace meta
     } // namespace multimap
 } // namespace meta
 
-#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_ROTATE_RIGHT_H
+#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_ROTATE_RIGHT_HPP

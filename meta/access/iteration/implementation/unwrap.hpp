@@ -5,8 +5,8 @@
 //  17 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_ITERATION_IMPLEMENTATION_UNWRAP_H
-#define META_ACCESS_ITERATION_IMPLEMENTATION_UNWRAP_H
+#ifndef META_ACCESS_ITERATION_IMPLEMENTATION_UNWRAP_HPP
+#define META_ACCESS_ITERATION_IMPLEMENTATION_UNWRAP_HPP
 
 #include <meta/access/iteration/iterator.hpp>
 #include <meta/access/iteration/implementation/knot.hpp>
@@ -29,4 +29,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_ACCESS_ITERATION_IMPLEMENTATION_UNWRAP_H
+#endif // META_ACCESS_ITERATION_IMPLEMENTATION_UNWRAP_HPP

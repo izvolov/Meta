@@ -5,8 +5,8 @@
 //  4 декабря 2011 года.
 //
 
-#ifndef META_INSPECTION_SIZE_H
-#define META_INSPECTION_SIZE_H
+#ifndef META_INSPECTION_SIZE_HPP
+#define META_INSPECTION_SIZE_HPP
 
 namespace meta
 {
@@ -46,4 +46,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_INSPECTION_SIZE_H
+#endif // META_INSPECTION_SIZE_HPP

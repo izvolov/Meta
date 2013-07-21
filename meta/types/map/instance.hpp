@@ -5,8 +5,8 @@
 //  3 января 2012 года.
 //
 
-#ifndef META_TYPES_MAP_INSTANCE_H
-#define META_TYPES_MAP_INSTANCE_H
+#ifndef META_TYPES_MAP_INSTANCE_HPP
+#define META_TYPES_MAP_INSTANCE_HPP
 
 namespace meta
 {
@@ -23,4 +23,4 @@ namespace meta
     } // namespace map
 } // namespace meta
 
-#endif // META_TYPES_MAP_INSTANCE_H
+#endif // META_TYPES_MAP_INSTANCE_HPP

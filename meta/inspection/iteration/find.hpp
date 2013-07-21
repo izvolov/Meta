@@ -5,8 +5,8 @@
 //  18 декабря 2011 года.
 //
 
-#ifndef META_INSPECTION_ITERATION_FIND_H
-#define META_INSPECTION_ITERATION_FIND_H
+#ifndef META_INSPECTION_ITERATION_FIND_HPP
+#define META_INSPECTION_ITERATION_FIND_HPP
 
 #include <meta/inspection/iteration/distance.hpp>
 #include <meta/inspection/iteration/implementation/find.hpp>
@@ -38,4 +38,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_INSPECTION_ITERATION_FIND_H
+#endif // META_INSPECTION_ITERATION_FIND_HPP

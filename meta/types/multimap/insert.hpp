@@ -5,8 +5,8 @@
 //  22 декабря 2011 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_INSERT_H
-#define META_TYPES_MULTIMAP_INSERT_H
+#ifndef META_TYPES_MULTIMAP_INSERT_HPP
+#define META_TYPES_MULTIMAP_INSERT_HPP
 
 #include <meta/types/multimap/implementation/insert.hpp>
 #include <meta/creation/reinstantiate.hpp>
@@ -27,4 +27,4 @@ namespace meta
     } // namespace multimap
 } // namespace meta
 
-#endif // META_TYPES_MULTIMAP_INSERT_H
+#endif // META_TYPES_MULTIMAP_INSERT_HPP

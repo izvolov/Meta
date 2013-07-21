@@ -5,8 +5,8 @@
 //  3 января 2012 года.
 //
 
-#ifndef META_TYPES_INTEGER_H
-#define META_TYPES_INTEGER_H
+#ifndef META_TYPES_INTEGER_HPP
+#define META_TYPES_INTEGER_HPP
 
 namespace meta
 {
@@ -20,4 +20,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_TYPES_INTEGER_H
+#endif // META_TYPES_INTEGER_HPP

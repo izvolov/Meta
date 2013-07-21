@@ -5,8 +5,8 @@
 //  11 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_IMPLEMENTATION_REVERSE_H
-#define META_MODIFICATION_IMPLEMENTATION_REVERSE_H
+#ifndef META_MODIFICATION_IMPLEMENTATION_REVERSE_HPP
+#define META_MODIFICATION_IMPLEMENTATION_REVERSE_HPP
 
 #include <meta/types/type_list.hpp>
 #include <meta/modification/implementation/push_back.hpp>
@@ -32,4 +32,4 @@ namespace meta
     } // namespace impl
 } // namespace meta
 
-#endif // META_MODIFICATION_IMPLEMENTATION_REVERSE_H
+#endif // META_MODIFICATION_IMPLEMENTATION_REVERSE_HPP

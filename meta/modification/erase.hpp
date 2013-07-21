@@ -5,8 +5,8 @@
 //  5 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_ERASE_H
-#define META_MODIFICATION_ERASE_H
+#ifndef META_MODIFICATION_ERASE_HPP
+#define META_MODIFICATION_ERASE_HPP
 
 #include <meta/modification/implementation/erase.hpp>
 #include <meta/types/type_list.hpp>

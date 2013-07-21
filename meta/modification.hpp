@@ -5,8 +5,8 @@
 //  11 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_H
-#define META_MODIFICATION_H
+#ifndef META_MODIFICATION_HPP
+#define META_MODIFICATION_HPP
 
 #include <meta/modification/deletion.hpp>
 #include <meta/modification/insertion.hpp>
@@ -14,4 +14,4 @@
 #include <meta/modification/substitution.hpp>
 #include <meta/modification/transformation.hpp>
 
-#endif // META_MODIFICATION_H
+#endif // META_MODIFICATION_HPP

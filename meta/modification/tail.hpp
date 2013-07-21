@@ -5,8 +5,8 @@
 //  4 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_TAIL_H
-#define META_MODIFICATION_TAIL_H
+#ifndef META_MODIFICATION_TAIL_HPP
+#define META_MODIFICATION_TAIL_HPP
 
 #include <meta/modification/implementation/tail.hpp>
 #include <meta/access/get_types.hpp>
@@ -31,4 +31,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_MODIFICATION_TAIL_H
+#endif // META_MODIFICATION_TAIL_HPP

@@ -5,8 +5,8 @@
 //  3 января 2012 года.
 //
 
-#ifndef META_TYPES_RATIONAL_H
-#define META_TYPES_RATIONAL_H
+#ifndef META_TYPES_RATIONAL_HPP
+#define META_TYPES_RATIONAL_HPP
 
 namespace meta
 {
@@ -23,4 +23,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_TYPES_RATIONAL_H
+#endif // META_TYPES_RATIONAL_HPP

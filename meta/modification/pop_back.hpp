@@ -5,8 +5,8 @@
 //  4 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_POP_BACK_H
-#define META_MODIFICATION_POP_BACK_H
+#ifndef META_MODIFICATION_POP_BACK_HPP
+#define META_MODIFICATION_POP_BACK_HPP
 
 #include <meta/modification/head.hpp>
 #include <meta/inspection/size.hpp>

@@ -5,8 +5,8 @@
 //  24 декабря 2011 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_ERASE_H
-#define META_TYPES_MULTIMAP_IMPLEMENTATION_ERASE_H
+#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_ERASE_HPP
+#define META_TYPES_MULTIMAP_IMPLEMENTATION_ERASE_HPP
 
 #include <meta/types/multimap/implementation/node.hpp>
 #include <meta/creation/lazy_instantiate.hpp>

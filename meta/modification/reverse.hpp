@@ -5,8 +5,8 @@
 //  11 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_REVERSE_H
-#define META_MODIFICATION_REVERSE_H
+#ifndef META_MODIFICATION_REVERSE_HPP
+#define META_MODIFICATION_REVERSE_HPP
 
 #include <meta/modification/implementation/reverse.hpp>
 #include <meta/access/get_types.hpp>
@@ -29,4 +29,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_MODIFICATION_REVERSE_H
+#endif // META_MODIFICATION_REVERSE_HPP

@@ -5,8 +5,8 @@
 //  5 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_IMPLEMENTATION_CLEAR_H
-#define META_MODIFICATION_IMPLEMENTATION_CLEAR_H
+#ifndef META_MODIFICATION_IMPLEMENTATION_CLEAR_HPP
+#define META_MODIFICATION_IMPLEMENTATION_CLEAR_HPP
 
 #include <meta/types/type_list.hpp>
 
@@ -25,4 +25,4 @@ namespace meta
     } // namespace impl
 } // namespace meta
 
-#endif // META_MODIFICATION_IMPLEMENTATION_CLEAR_H
+#endif // META_MODIFICATION_IMPLEMENTATION_CLEAR_HPP

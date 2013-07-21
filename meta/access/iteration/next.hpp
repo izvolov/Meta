@@ -5,8 +5,8 @@
 //  5 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_ITERATION_NEXT_H
-#define META_ACCESS_ITERATION_NEXT_H
+#ifndef META_ACCESS_ITERATION_NEXT_HPP
+#define META_ACCESS_ITERATION_NEXT_HPP
 
 #include <meta/inspection/iteration/has_next.hpp>
 #include <meta/access/iteration/implementation/advance.hpp>
@@ -36,4 +36,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_ACCESS_ITERATION_NEXT_H
+#endif // META_ACCESS_ITERATION_NEXT_HPP

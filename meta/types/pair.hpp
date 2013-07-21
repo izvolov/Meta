@@ -5,8 +5,8 @@
 //  3 января 2012 года.
 //
 
-#ifndef META_TYPES_PAIR_H
-#define META_TYPES_PAIR_H
+#ifndef META_TYPES_PAIR_HPP
+#define META_TYPES_PAIR_HPP
 
 namespace meta
 {
@@ -21,4 +21,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_TYPES_PAIR_H
+#endif // META_TYPES_PAIR_HPP

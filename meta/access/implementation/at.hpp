@@ -5,8 +5,8 @@
 //  4 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_IMPLEMENTATION_AT_H
-#define META_ACCESS_IMPLEMENTATION_AT_H
+#ifndef META_ACCESS_IMPLEMENTATION_AT_HPP
+#define META_ACCESS_IMPLEMENTATION_AT_HPP
 
 #include <meta/types/type_list.hpp>
 
@@ -31,4 +31,4 @@ namespace meta
     } // namespace impl
 } // namespace meta
 
-#endif // META_ACCESS_IMPLEMENTATION_AT_H
+#endif // META_ACCESS_IMPLEMENTATION_AT_HPP

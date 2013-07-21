@@ -5,8 +5,8 @@
 //  4 декабря 2011 года.
 //
 
-#ifndef META_CREATION_REINSTANTIATE_H
-#define META_CREATION_REINSTANTIATE_H
+#ifndef META_CREATION_REINSTANTIATE_HPP
+#define META_CREATION_REINSTANTIATE_HPP
 
 #include <meta/types/type_list.hpp>
 
@@ -29,4 +29,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_CREATION_REINSTANTIATE_H
+#endif // META_CREATION_REINSTANTIATE_HPP

@@ -5,8 +5,8 @@
 //  5 декабря 2011 года.
 //
 
-#ifndef META_MODIFICATION_INSERT_H
-#define META_MODIFICATION_INSERT_H
+#ifndef META_MODIFICATION_INSERT_HPP
+#define META_MODIFICATION_INSERT_HPP
 
 #include <meta/modification/implementation/insert.hpp>
 #include <meta/types/type_list.hpp>
@@ -33,4 +33,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_MODIFICATION_INSERT_H
+#endif // META_MODIFICATION_INSERT_HPP

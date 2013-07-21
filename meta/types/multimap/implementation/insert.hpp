@@ -5,8 +5,8 @@
 //  22 декабря 2011 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_INSERT_H
-#define META_TYPES_MULTIMAP_IMPLEMENTATION_INSERT_H
+#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_INSERT_HPP
+#define META_TYPES_MULTIMAP_IMPLEMENTATION_INSERT_HPP
 
 #include <meta/types/multimap/implementation/node.hpp>
 #include <meta/creation/lazy_instantiate.hpp>
@@ -149,4 +149,4 @@ namespace meta
     } // namespace multimap
 } // namespace meta
 
-#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_INSERT_H
+#endif // META_TYPES_MULTIMAP_IMPLEMENTATION_INSERT_HPP

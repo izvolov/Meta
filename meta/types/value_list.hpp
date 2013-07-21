@@ -5,8 +5,8 @@
 //  19 декабря 2011 года.
 //
 
-#ifndef META_TYPES_VALUE_LIST_H
-#define META_TYPES_VALUE_LIST_H
+#ifndef META_TYPES_VALUE_LIST_HPP
+#define META_TYPES_VALUE_LIST_HPP
 
 namespace meta
 {
@@ -20,4 +20,4 @@ namespace meta
     };
 } // namespace meta
 
-#endif // META_TYPES_VALUE_LIST_H
+#endif // META_TYPES_VALUE_LIST_HPP

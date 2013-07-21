@@ -5,8 +5,8 @@
 //  24 декабря 2011 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_ERASE_H
-#define META_TYPES_MULTIMAP_ERASE_H
+#ifndef META_TYPES_MULTIMAP_ERASE_HPP
+#define META_TYPES_MULTIMAP_ERASE_HPP
 
 #include <meta/types/multimap/implementation/erase.hpp>
 #include <meta/creation/reinstantiate.hpp>
@@ -27,4 +27,4 @@ namespace meta
     } // namespace multimap
 } // namespace meta
 
-#endif // META_TYPES_MULTIMAP_ERASE_H
+#endif // META_TYPES_MULTIMAP_ERASE_HPP

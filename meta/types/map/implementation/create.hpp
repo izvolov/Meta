@@ -5,8 +5,8 @@
 //  3 января 2012 года.
 //
 
-#ifndef META_TYPES_MAP_IMPLEMENTATION_CREATE_H
-#define META_TYPES_MAP_IMPLEMENTATION_CREATE_H
+#ifndef META_TYPES_MAP_IMPLEMENTATION_CREATE_HPP
+#define META_TYPES_MAP_IMPLEMENTATION_CREATE_HPP
 
 #include <meta/types/map/implementation/insert.hpp>
 
@@ -31,4 +31,4 @@ namespace meta
     } // namespace map
 } // namespace meta
 
-#endif // META_TYPES_MAP_IMPLEMENTATION_CREATE_H
+#endif // META_TYPES_MAP_IMPLEMENTATION_CREATE_HPP

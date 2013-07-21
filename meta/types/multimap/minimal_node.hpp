@@ -5,8 +5,8 @@
 //  24 декабря 2011 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_MINIMAL_NODE_H
-#define META_TYPES_MULTIMAP_MINIMAL_NODE_H
+#ifndef META_TYPES_MULTIMAP_MINIMAL_NODE_HPP
+#define META_TYPES_MULTIMAP_MINIMAL_NODE_HPP
 
 #include <meta/types/multimap/implementation/minimal_node.hpp>
 
@@ -25,4 +25,4 @@ namespace meta
     } // namespace multimap
 } // namespace meta
 
-#endif // META_TYPES_MULTIMAP_MINIMAL_NODE_H
+#endif // META_TYPES_MULTIMAP_MINIMAL_NODE_HPP

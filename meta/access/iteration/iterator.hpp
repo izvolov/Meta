@@ -5,8 +5,8 @@
 //  5 декабря 2011 года.
 //
 
-#ifndef META_ACCESS_ITERATION_ITERATOR_H
-#define META_ACCESS_ITERATION_ITERATOR_H
+#ifndef META_ACCESS_ITERATION_ITERATOR_HPP
+#define META_ACCESS_ITERATION_ITERATOR_HPP
 
 #include <meta/types/pattern_list.hpp>
 #include <meta/types/type_list.hpp>
@@ -38,4 +38,4 @@ namespace meta
     } // namespace iter
 } // namespace meta
 
-#endif // META_ACCESS_ITERATION_ITERATOR_H
+#endif // META_ACCESS_ITERATION_ITERATOR_HPP

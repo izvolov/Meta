@@ -5,8 +5,8 @@
 //  22 декабря 2011 года.
 //
 
-#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_AT_H
-#define META_TYPES_MULTIMAP_IMPLEMENTATION_AT_H
+#ifndef META_TYPES_MULTIMAP_IMPLEMENTATION_AT_HPP
+#define META_TYPES_MULTIMAP_IMPLEMENTATION_AT_HPP
 
 #include <meta/types/multimap/implementation/node.hpp>
 #include <meta/types/comparison/less.hpp>

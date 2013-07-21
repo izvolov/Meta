@@ -5,8 +5,8 @@
 //  3 января 2012 года.
 //
 
-#ifndef META_TYPES_MAP_ERASE_H
-#define META_TYPES_MAP_ERASE_H
+#ifndef META_TYPES_MAP_ERASE_HPP
+#define META_TYPES_MAP_ERASE_HPP
 
 #include <meta/types/multimap/erase.hpp>
 
@@ -22,4 +22,4 @@ namespace meta
     } // namespace map
 } // namespace meta
 
-#endif // META_TYPES_MAP_ERASE_H
+#endif // META_TYPES_MAP_ERASE_HPP
