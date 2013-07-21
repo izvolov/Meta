@@ -1,6 +1,4 @@
 //
-//  meta/types/arithmetic/greatest_common_divisor.hpp
-//
 //  Дмитрий Изволов.
 //  26 января 2012 года.
 //

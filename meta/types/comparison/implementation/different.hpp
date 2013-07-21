@@ -1,6 +1,4 @@
 //
-//  meta/types/comparison/implementation/different.hpp
-//
 //  Дмитрий Изволов.
 //  11 февраля 2012 года.
 //

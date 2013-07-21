@@ -1,6 +1,4 @@
 //
-//  meta/types/arithmetic/implementation/multiply.hpp
-//
 //  Дмитрий Изволов.
 //  11 февраля 2012 года.
 //

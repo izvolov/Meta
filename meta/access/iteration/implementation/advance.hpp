@@ -1,6 +1,4 @@
 //
-//  meta/access/iteration/implementation/advance.hpp
-//
 //  Дмитрий Изволов.
 //  18 декабря 2011 года.
 //

@@ -1,6 +1,4 @@
 //
-//  meta/modification/implementation/erase.hpp
-//
 //  Дмитрий Изволов.
 //  5 декабря 2011 года.
 //

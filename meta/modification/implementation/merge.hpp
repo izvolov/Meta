@@ -1,6 +1,4 @@
 //
-//  meta/modification/implementation/merge.hpp
-//
 //  Дмитрий Изволов.
 //  5 декабря 2011 года.
 //

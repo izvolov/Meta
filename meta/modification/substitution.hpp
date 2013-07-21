@@ -1,6 +1,4 @@
 //
-//  meta/modification/substitution.hpp
-//
 //  Дмитрий Изволов.
 //  10 декабря 2011 года.
 //

@@ -1,6 +1,4 @@
 //
-//  meta/modification/transformation.hpp
-//
 //  Дмитрий Изволов.
 //  7 декабря 2011 года.
 //

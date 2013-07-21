@@ -1,6 +1,4 @@
 //
-//  meta/types/multimap/implementation/erase.hpp
-//
 //  Дмитрий Изволов.
 //  24 декабря 2011 года.
 //

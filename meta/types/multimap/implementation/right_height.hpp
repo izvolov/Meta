@@ -1,6 +1,4 @@
 //
-//  meta/types/multimap/implementation/right_height.hpp
-//
 //  Дмитрий Изволов.
 //  2 января 2012 года.
 //

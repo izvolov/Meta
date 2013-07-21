@@ -1,6 +1,4 @@
 //
-//  meta/modification/implementation/reverse.hpp
-//
 //  Дмитрий Изволов.
 //  11 декабря 2011 года.
 //

@@ -1,6 +1,4 @@
 //
-//  meta/inspection/iteration/count.hpp
-//
 //  Дмитрий Изволов.
 //  18 декабря 2011 года.
 //

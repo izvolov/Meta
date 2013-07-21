@@ -1,6 +1,4 @@
 //
-//  meta/modification/insertion.hpp
-//
 //  Дмитрий Изволов.
 //  4 декабря 2011 года.
 //

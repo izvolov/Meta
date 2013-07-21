@@ -1,6 +1,4 @@
 //
-//  meta/types/comparison/implementation/maximum.hpp
-//
 //  Дмитрий Изволов.
 //  7 августа 2012 года.
 //

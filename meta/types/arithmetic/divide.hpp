@@ -1,6 +1,4 @@
 //
-//  meta/types/arithmetic/divide.hpp
-//
 //  Дмитрий Изволов.
 //  11 февраля 2012 года.
 //

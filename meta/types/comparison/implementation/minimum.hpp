@@ -1,6 +1,4 @@
 //
-//  meta/types/comparison/implementation/minimum.hpp
-//
 //  Дмитрий Изволов.
 //  7 августа 2012 года.
 //

@@ -1,6 +1,4 @@
 //
-//  meta/modification/implementation/move_left.hpp
-//
 //  Дмитрий Изволов.
 //  7 декабря 2011 года.
 //

@@ -1,6 +1,4 @@
 //
-//  meta/types/arithmetic/implementation/plus.hpp
-//
 //  Дмитрий Изволов.
 //  26 января 2012 года.
 //

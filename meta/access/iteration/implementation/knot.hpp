@@ -1,6 +1,4 @@
 //
-//  meta/access/iteration/implementation/knot.hpp
-//
 //  Дмитрий Изволов.
 //  7 декабря 2011 года.
 //

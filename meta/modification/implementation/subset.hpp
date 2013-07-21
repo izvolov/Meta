@@ -1,6 +1,4 @@
 //
-//  meta/modification/implementation/subset.hpp
-//
 //  Дмитрий Изволов.
 //  21 декабря 2011 года.
 //

@@ -1,6 +1,4 @@
 //
-//  meta/access/iteration/implementation/unwrap.hpp
-//
 //  Дмитрий Изволов.
 //  17 декабря 2011 года.
 //

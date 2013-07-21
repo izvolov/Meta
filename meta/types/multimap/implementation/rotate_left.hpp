@@ -1,6 +1,4 @@
 //
-//  meta/types/multimap/implementation/rotate_left.hpp
-//
 //  Дмитрий Изволов.
 //  3 января 2012 года.
 //

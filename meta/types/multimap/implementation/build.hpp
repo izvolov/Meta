@@ -1,6 +1,4 @@
 //
-//  meta/types/multimap/implementation/build.hpp
-//
 //  Дмитрий Изволов.
 //  22 декабря 2011 года.
 //

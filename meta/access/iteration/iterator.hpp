@@ -1,6 +1,4 @@
 //
-//  meta/access/iteration/iterator.hpp
-//
 //  Дмитрий Изволов.
 //  5 декабря 2011 года.
 //

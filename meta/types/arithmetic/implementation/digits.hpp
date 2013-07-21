@@ -1,6 +1,4 @@
 //
-//  meta/types/arithmetic/implementation/digits.hpp
-//
 //  Дмитрий Изволов.
 //  18 февраля 2012 года.
 //

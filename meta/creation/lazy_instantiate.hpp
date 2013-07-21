@@ -1,6 +1,4 @@
 //
-//  meta/creation/lazy_instantiate.hpp
-//
 //  Дмитрий Изволов.
 //  31 декабря 2011 года.
 //
