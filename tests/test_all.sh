@@ -8,5 +8,5 @@
 files=(`find . -name "*.cpp"`)
 for file in ${files[@]};
 do
-    echo $file `./run_test.sh $file 2> /dev/null`
+    echo "$file `./run_test.sh $file`"
 done

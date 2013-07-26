@@ -37,15 +37,18 @@ else
         exit
     fi
 
-    clang++ -std=c++0x -stdlib=libc++ -c -I.. $SOURCE -o $OBJ_FILE_NAME
+    COMPILATION_OUTPUT="`clang++ -std=c++0x -stdlib=libc++ -c -I.. $SOURCE -o $OBJ_FILE_NAME 2>&1`"
     RESULT=$?
     # ДОДЕЛАТЬ анализ текста выдаваемой ошибки (произошла ли ожидаемая ошибка).
+    # ПОНЯТЬ, можно ли перенаправить поток ошибок так, чтобы сохранялось форматирование текста
+    # (цвета и шрифт).
 
     if [ $RESULT = $EXPECTED_RESULT ];
     then
         echo $SUCCESS_STRING
     else
-        echo $FAIL_STRING
+        echo "$FAIL_STRING"
+        echo "$COMPILATION_OUTPUT"
     fi
 
     if [ -e $OBJ_FILE_NAME ];
